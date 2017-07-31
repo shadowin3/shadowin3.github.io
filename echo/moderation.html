@@ -35,7 +35,105 @@
           </ul> 
         </div> 
       </nav> 
-    </header> 
+    </header>
+    <div class="container">
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title">Message Deletion</span>
+          <p>Can be used to quickly delete any desired amount of messages from the text channel.</p>
+        </div>
+        <div class="card-tabs">
+          <ul class="tabs tabs-fixed-width">
+            <li class="tab"><a href="#deletionkeyword">Keyword</a></li>
+            <li class="tab"><a class="active" href="#deletionnote">Note</a></li>
+            <li class="tab"><a href="#deletionexample">Example</a></li>
+          </ul>
+        </div>
+        <div class="card-content grey lighten-4">
+          <div id="deletionkeyword">Delete, Prune, Purge, Clear, Clean</div>
+          <div id="deletionnote">This command requires you to specify the number of messages you wish deleted from the server. Please keep in mind if you wish to do a specific amount that you add 3 to the number you wish to delete, as the number includes the messages used to enact the command.</div>
+          <div id="deletionexample">Echo, clear 5 messages from the channel.</div>
+        </div>
+      </div> 
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title">Kicking Members</span>
+          <p>Can be used to temporarily remove a member from your server.</p>
+        </div>
+        <div class="card-tabs">
+          <ul class="tabs tabs-fixed-width">
+            <li class="tab"><a href="#kickkeyword">Keyword</a></li>
+            <li class="tab"><a class="active" href="#kicknote">Note</a></li>
+            <li class="tab"><a href="#kickexample">Example</a></li>
+          </ul>
+        </div>
+        <div class="card-content grey lighten-4">
+          <div id="kickkeyword">Kick</div>
+          <div id="kicknote">This command requires you to mention the person that you wish removed from the server, as the punishment is enacted via their User ID.</div>
+          <div id="kickexample">Echo, please kick @JohnSmith#1234</div>
+        </div>
+      </div> 
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title">Muting/Unmuting Members</span>
+          <p>Can be used to mute or unmute members, removing or reinstituting their ability to speak in text channels.</p>
+        </div>
+        <div class="card-tabs">
+          <ul class="tabs tabs-fixed-width">
+            <li class="tab"><a href="#mutekeyword">Keywords</a></li>
+            <li class="tab"><a class="active" href="#mutenote">Note</a></li>
+            <li class="tab"><a href="#muteexample">Example</a></li>
+          </ul>
+        </div>
+        <div class="card-content grey lighten-4">
+          <div id="mutekeyword">Mute, Unmute</div>
+          <div id="mutenote">This command can currently be used only in Echo's home server, as it involves roles which go by a specific ID. Additionally, this command requires you to mention the person you wish muted, as it adds the role to the user via their ID.</div>
+          <div id="muteexample">Echo, mute @JohnSmith#1234 // Echo, unmute @JohnSmith#1234</div>
+        </div>
+      </div> 
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title">Banning/Unbanning Members</span>
+          <p>Can be used to permanently remove someone from your server.</p>
+        </div>
+        <div class="card-tabs">
+          <ul class="tabs tabs-fixed-width">
+            <li class="tab"><a href="#bankeyword">Keywords</a></li>
+            <li class="tab"><a class="active" href="#bannote">Note</a></li>
+            <li class="tab"><a href="#banexample">Example</a></li>
+          </ul>
+        </div>
+        <div class="card-content grey lighten-4">
+          <div id="bankeyword">Ban, Unban</div>
+          <div id="bannote">This command requires you to mention the member you wish to ban, as it enacts the punishment via their user ID. For unbanning, you must give Echo the user ID of the person you wish to be unbanned. To find this, right click on the tab for private messages with the user, and click the words: "copy ID."</div>
+          <div id="banexample">Echo, ban @JohnSmith1234 // Echo, unban 123412341234123412</div>
+        </div>
+      </div> 
+    </div>
+    <footer class="page-footer purple darken-3">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Echo Bot Info</h5>
+            <p class="grey-text text-lighten-4">Echo was coded by Azanoxious in JavaScript along with the help of SplitPixl, and is intended to aid in the use of the discord client and make day-to-day life on the internet easier.</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="https://discordapp.com/oauth2/authorize?&client_id=313036994932375552&scope=bot">Invite Echo to Your Server</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://www.discord.me/shade">Join Echo's Server</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://www.splitpixl.xyz">Check Out SplitPixl's Website</a></li>
+              <li><a class="grey-text text-lighten-3" href="../contact.html">Contact Azzy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright red darken-4">
+        <div class="container">
+        Thanks for visiting the Site!
+        </div>
+      </div>
+    </footer>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
     <script type="text/javascript" src="js/materialize.min.js"></script> 
   </body> 
