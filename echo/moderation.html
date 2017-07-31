@@ -7,8 +7,8 @@
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
   </head> 
-  <body> 
-    <header> 
+  <body style="margin-top: 64px"> 
+    <header style="position: fixed; z-index: 2; top: 0; left: 0; width: 100%"> 
       <nav> 
         <div class="nav-wrapper purple darken-3"> 
           <a href="./" class="brand-logo center">Echo</a> 
@@ -36,6 +36,9 @@
         </div> 
       </nav> 
     </header>
+    <div class="parallax-container">
+      <div class="parallax"><img src="http://www.worldtribune.com/wp-content/uploads/2017/05/Justice.jpg"></div>
+    </div>
     <div class="container">
       <div class="card">
         <div class="card-content">
@@ -110,6 +113,9 @@
         </div>
       </div> 
     </div>
+    <div class="parallax-container">
+      <div class="parallax"><img src="http://images.rigzone.com/images/news/articles/n_148493.png"></div>
+    </div>
     <footer class="page-footer purple darken-3">
       <div class="container">
         <div class="row">
@@ -135,6 +141,8 @@
       </div>
     </footer>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
-    <script type="text/javascript" src="js/materialize.min.js"></script> 
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>$( document ).ready(function(){$(".button-collapse").sideNav();})</script>
+    <script>$( document ).ready(function(){$('.parallax').parallax();});</script>
   </body> 
 </html> 
