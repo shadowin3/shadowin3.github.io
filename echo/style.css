@@ -1,11 +1,11 @@
 * {
-  
+
 font-family: sans-serif;
-  
+
 }
 
 .page {
-  
+
 display: flex;
 position: absolute;
 top: 0;
@@ -16,8 +16,18 @@ flex-direction: column;
 
 }
 
+.body {
+
+display: flex;
+background-color: #999;
+justify-content: center;
+align-items: center;
+position: absolute;
+
+}
+
 .nav {
-  
+
 display: flex;
 background-color: #444;
 width: 100%;
@@ -29,7 +39,7 @@ position: absolute;
 }
 
 .nav a {
-  
+
 font-size: 36px;
 text-decoration: none;
 color: #fff;
@@ -39,13 +49,13 @@ padding: 3px 0px;
 }
 
 .nav .selected {
- 
+
 background-color: #888
 
 }
 
 .body {
-  
+
 margin: 5%;
 
 }
