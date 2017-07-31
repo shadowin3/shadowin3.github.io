@@ -16,14 +16,6 @@ flex-direction: column;
 
 }
 
-body {
-
-background-color: #999;
-justify-content: center;
-position: absolute;
-
-}
-
 .nav {
 
 display: flex;
