@@ -12,7 +12,7 @@
 			<nav> 
 				<div class="nav-wrapper purple darken-3"> 
 					<a href="./" class="brand-logo center">Echo</a> 
-					<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a> 
+					<a href="#" data-activates="mobilenavbarindex" class="button-collapse"><i class="material-icons">menu</i></a> 
 					<ul class="left hide-on-med-and-down"> 
 						<li class="active red darken-4"><a href="./">Home</a></li> 
 						<li><a href="./chat.html">Chat</a></li> 
@@ -24,7 +24,7 @@
 						<li><a class="waves-effect waves-light btn black" href="https://discordapp.com/oauth2/authorize?&client_id=313036994932375552&scope=bot"><i class="material-icons right">add</i>Invite</a></li> 
 						<li><a class="waves-effect waves-light btn black" href="https://www.discord.me/shade"><i class="material-icons right">home</i>Server</a></li> 
 					</ul> 
-					<ul class="side-nav" id="mobile-demo"> 
+					<ul class="side-nav" id="mobilenavbarindex"> 
 						<li><a href="./">Home</a></li> 
 						<li><a href="./chat.html">Chat</a></li> 
 						<li><a href="./moderation.html">Moderation</a></li> 
@@ -45,7 +45,7 @@
           			</div>
           			<div class="col l4 offset-l2 s12">
             			<h5 class="white-text">Links</h5>
-            			<ul>
+            			<ul class="browser-default">
               				<li><a class="grey-text text-lighten-3" href="https://discordapp.com/oauth2/authorize?&client_id=313036994932375552&scope=bot">Invite Echo to Your Server</a></li>
               				<li><a class="grey-text text-lighten-3" href="https://www.discord.me/shade">Join Echo's Server</a></li>
               				<li><a class="grey-text text-lighten-3" href="https://www.splitpixl.xyz">Check Out SplitPixl's Website</a></li>
@@ -62,7 +62,7 @@
     	</footer>
 		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
 		<script type="text/javascript" src="js/materialize.min.js"></script>
-		<script>$( document ).ready(function(){$(".button-collapse").sideNav();})</script>
+		<script>$( document ).ready(function(){ $(".button-collapse").sideNav();})</script>
 		<script>$( document ).ready(function(){$('.parallax').parallax();});</script>
 	</body> 
 </html> 

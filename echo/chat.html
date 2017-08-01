@@ -7,12 +7,12 @@
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
   </head> 
-  <body style="margin-top: 56px"> 
+  <body style="margin-top: 128px"> 
     <header style="position: fixed; z-index: 2; top: 0; left: 0; width: 100%"> 
-      <nav> 
+      <nav class="nav-extended"> 
         <div class="nav-wrapper purple darken-3"> 
           <a href="./" class="brand-logo center">Echo</a> 
-          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a> 
+          <a href="#" data-activates="mobilenavbarchat" class="button-collapse"><i class="material-icons">menu</i></a> 
           <ul class="left hide-on-med-and-down"> 
             <li><a href="./">Home</a></li> 
             <li class="active red darken-4"><a href="./chat.html">Chat</a></li> 
@@ -24,7 +24,7 @@
             <li><a class="waves-effect waves-light btn black" href="https://discordapp.com/oauth2/authorize?&client_id=313036994932375552&scope=bot"><i class="material-icons right">add</i>Invite</a></li> 
             <li><a class="waves-effect waves-light btn black" href="https://www.discord.me/shade"><i class="material-icons right">home</i>Server</a></li> 
           </ul> 
-          <ul class="side-nav" id="mobile-demo"> 
+          <ul class="side-nav" id="mobilenavbarchat"> 
             <li><a href="./">Home</a></li> 
             <li><a href="./chat.html">Chat</a></li> 
             <li><a href="./moderation.html">Moderation</a></li> 
@@ -33,10 +33,204 @@
             <li><a href="https://discordapp.com/oauth2/authorize?&client_id=313036994932375552&scope=bot">Invite</a></li> 
             <li><a href="https://www.discord.me/shade">Server</a></li> 
           </ul> 
-        </div> 
+        </div>
+        <div class="nav-content purple darken-3">
+          <ul class="tabs tabs-transparent">
+            <li class="tab"><a href="#emotestab">Emotes</a></li>
+            <li class="tab"><a href="#actionstab">Actions</a></li>
+            <li class="tab"><a href="#imagestab">Images</a></li>
+            <li class="tab"><a href="#quotestab">Quotes</a></li>
+            <li class="tab"><a href="#randomtab">Random</a></li>
+          </ul>
+        </div>
       </nav> 
     </header>
-
+    <div class="col 3" id="emotestab">
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="./twitchemotes/babyrage.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title">BabyRage</span>
+        </div>
+      </div>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="./twitchemotes/biblethump.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title">BibleThump</span>
+        </div>
+      </div>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="./twitchemotes/cmonbruh.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title">cmonBruh</span>
+        </div>
+      </div>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="./twitchemotes/dansgame.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title">DansGame</span>
+        </div>
+      </div>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="./twitchemotes/heyguys.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title">HeyGuys</span>
+        </div>
+      </div>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="./twitchemotes/jebaited.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title">Jebaited</span>
+        </div>
+      </div>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="./twitchemotes/kappa.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title">Kappa</span>
+        </div>
+      </div>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="./twitchemotes/kreygasm.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title">Kreygasm</span>
+        </div>
+      </div>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="./twitchemotes/notlikethis.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title">NotLikeThis</span>
+        </div>
+      </div>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="./twitchemotes/frog.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title">OSfrog</span>
+        </div>
+      </div>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="./twitchemotes/sloth.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title">OSsloth</span>
+        </div>
+      </div>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="./twitchemotes/residentsleeper.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title">ResidentSleeper</span>
+        </div>
+      </div>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="./twitchemotes/sefcry.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title">sefCry</span>
+        </div>
+      </div>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="./twitchemotes/sefgasm.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title">sefGasm</span>
+        </div>
+      </div>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="./twitchemotes/sefhi.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title">sefHi</span>
+        </div>
+      </div>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="./twitchemotes/sefhype.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title">sefHype</span>
+        </div>
+      </div>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="./twitchemotes/seflaugh.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title">sefLaugh</span>
+        </div>
+      </div>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="./twitchemotes/sefpacha.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title">sefPacha</span>
+        </div>
+      </div>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="./twitchemotes/sefrage.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title">sefRage</span>
+        </div>
+      </div>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="./twitchemotes/sefwut.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title">sefWut</span>
+        </div>
+      </div>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="./twitchemotes/vohiyo.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title">VoHiYo</span>
+        </div>
+      </div>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="./twitchemotes/wutface.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title">WutFace</span>
+        </div>
+      </div>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="./twitchemotes/Zoe.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title">Zoe</span>
+        </div>
+      </div>
+    </div>
     <footer class="page-footer purple darken-3">
       <div class="container">
         <div class="row">
@@ -46,7 +240,7 @@
           </div>
           <div class="col l4 offset-l2 s12">
             <h5 class="white-text">Links</h5>
-            <ul>
+            <ul class="browser-default">
               <li><a class="grey-text text-lighten-3" href="https://discordapp.com/oauth2/authorize?&client_id=313036994932375552&scope=bot">Invite Echo to Your Server</a></li>
               <li><a class="grey-text text-lighten-3" href="https://www.discord.me/shade">Join Echo's Server</a></li>
               <li><a class="grey-text text-lighten-3" href="https://www.splitpixl.xyz">Check Out SplitPixl's Website</a></li>
